@@ -2,7 +2,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Bookstore React Project</b></h3>
@@ -134,7 +133,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Balikuddembe/bookstore-react/issues).
+Feel free to check the [issues page](https://github.com/Balikuddembe/Bookstore-App/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +145,7 @@ If you like this project please give it a star 😁🌟✨
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Zeplin Project for the awesome design which guided me to build this project efficiently and effectively. Thank you all for your invaluable contributions.
+I am deeply grateful to the Zeplin Project for providing me with such exceptional design guidance that enabled me to efficiently and effectively build this project. I am truly indebted to all those who have contributed to this invaluable resource, and would like to express my sincere appreciation for their efforts.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
