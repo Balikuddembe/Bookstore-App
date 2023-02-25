@@ -4,7 +4,7 @@
 
   <br/>
 
-  <h3><b>Bookstore React Project</b></h3>
+ # <h3>Bookstore React Project</h3>
 
 </div>
 
