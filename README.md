@@ -2,8 +2,6 @@
 
 <div align="center">
 
-  <br/>
-
  # <h3>Bookstore React Project</h3>
 
 </div>
