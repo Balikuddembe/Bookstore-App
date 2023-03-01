@@ -1,20 +1,12 @@
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Nav from './components/Nav';
-import Books from './components/Books';
-import './App.css';
-import Categories from './components/Categories';
+import { Provider } from 'react-redux';
+import RouterNav from './Router';
+import Store from './redux/Store';
 
-const App = () => (
-  <BrowserRouter>
-    <div className="component-body">
-      <Nav />
-      <Routes>
-        <Route path="/" element={<Books />} />
-        <Route path="/categories" element={<Categories />} />
-      </Routes>
-    </div>
-  </BrowserRouter>
-);
-
+function App() {
+  return (
+    <Provider store={Store}>
+      <RouterNav />
+    </Provider>
+  );
+}
 export default App;
