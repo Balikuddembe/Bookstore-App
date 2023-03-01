@@ -143,7 +143,7 @@ If you like this project please give it a star 😁🌟✨
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I am deeply grateful to the Zeplin Project for providing me with such exceptional design guidance that enabled me to efficiently and effectively build this project. I am truly indebted to all those who have contributed to this invaluable resource, and would like to express my sincere appreciation for their efforts.
+I am deeply grateful to the Zeplin Project for providing me with such exceptional design guidance that enabled me to efficiently and effectively build this project. I am truly indebted to all those who have contributed to this invaluable resource, and would like to express my sincere appreciation for their efforts.Above all i thank microverse for giving me an opporyunity to learn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
