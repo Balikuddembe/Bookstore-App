@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { remove } from '../redux/books/booksSlice';
+import { deleteBook, fetchBooksFromApi } from '../redux/books/booksSlice';
 import styles from '../styles/Book.module.css';
 
 function Book({ bookData }) {
@@ -15,7 +15,15 @@ function Book({ bookData }) {
           <ul className={styles.buttonList}>
             <li>Comments</li>
             <li>
-              <button type="button" onClick={() => dispatch(remove({ bookData }))}>Remove</button>
+              <button
+                type="button"
+                onClick={async () => {
+                  await dispatch(deleteBook(bookData.item_id));
+                  await dispatch(fetchBooksFromApi());
+                }}
+              >
+                Remove
+              </button>
             </li>
             <li>Edit</li>
           </ul>
