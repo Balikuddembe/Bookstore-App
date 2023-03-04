@@ -1,5 +1,45 @@
-* {
+@font-face {
+  font-family: 'Monserrat';
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Slab';
+  src: url('./assets/fonts/RobotoSlab-VariableFont_wght.ttf');
+}
+
+body {
   margin: 0;
-  padding: 0;
+  height: 100%;
+  padding: 4%;
+  background-color: #f5f6fa;
+  font-family: 'Monserrat', sans-serif;
   box-sizing: border-box;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+#root {
+  margin: 0;
+  padding: 0 0 8%;
+  border-radius: 4px;
+  box-shadow: 0 0 60px 0 rgb(0 0 0 / 5%);
+  background-color: #fafafa;
+}
+
+.CircularProgressbar-path {
+  stroke: #307bbe !important;
+}
+
+::placeholder {
+  color: #c8c8c8;
+  opacity: 1;
 }
