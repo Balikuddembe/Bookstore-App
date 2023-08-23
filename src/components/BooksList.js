@@ -10,7 +10,7 @@ function BooksList() {
 
   useEffect(() => {
     dispatch(fetchBooksFromApi());
-  }, []);
+  });
 
   return (
     <ul className={styles.bookList}>
